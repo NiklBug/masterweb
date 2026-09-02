@@ -1,0 +1,48 @@
+
+badge_small.png
+size: 226,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+210
+  rotate: true
+  xy: 152, 44
+  size: 95, 42
+  orig: 97, 42
+  offset: 1, 0
+  index: -1
+BACK
+  rotate: false
+  xy: 2, 3
+  size: 103, 14
+  orig: 103, 14
+  offset: 0, 0
+  index: -1
+F
+  rotate: false
+  xy: 152, 18
+  size: 24, 24
+  orig: 30, 30
+  offset: 3, 3
+  index: -1
+adcash
+  rotate: true
+  xy: 115, 11
+  size: 128, 35
+  orig: 129, 37
+  offset: 1, 1
+  index: -1
+addcash
+  rotate: true
+  xy: 196, 2
+  size: 137, 28
+  orig: 137, 29
+  offset: 0, 1
+  index: -1
+light
+  rotate: true
+  xy: 2, 19
+  size: 120, 111
+  orig: 128, 119
+  offset: 1, 5
+  index: -1
