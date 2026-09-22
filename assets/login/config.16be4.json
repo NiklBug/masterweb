@@ -1,0 +1,1019 @@
+{
+    "paths": {
+        "b3u8PKy7hAuKTHnQ+zbEkt": [
+            "ani/anim_loading",
+            "cc.AnimationClip"
+        ],
+        "62bFiMjLVMkIbzFz2zLYVh": [
+            "font/Arial",
+            "cc.TTFFont"
+        ],
+        "54285YL8dD9Z3iJMTpEhNn": [
+            "font/AutoAtlas",
+            "cc.SpriteAtlas"
+        ],
+        "29q2m5b2dCAZ68WJSHRuZP": [
+            "font/arial",
+            "cc.BitmapFont"
+        ],
+        "80efkLrfZCSaGVgx3ADqZG": [
+            "font/arial",
+            "cc.SpriteFrame",
+            1
+        ],
+        "2fKdDsK99CZZJtam69ZtpG": [
+            "font/arial_bold",
+            "cc.SpriteFrame",
+            1
+        ],
+        "86hFqoaXtH2LxWCdXevVyt": [
+            "font/arial_bold",
+            "cc.BitmapFont"
+        ],
+        "b88KMPunhCarDuQqUHridj": [
+            "font/font2",
+            "cc.TTFFont"
+        ],
+        "c6TWZ4XqZOOK8UsQSVTmY4": [
+            "font/fontBold",
+            "cc.TTFFont"
+        ],
+        "07bvIpKKZJZpjxyzsrAsn6": [
+            "font/vipNum",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0cK7Ar3J1Af4cb02ipNbjM": [
+            "font/vipNum",
+            "cc.LabelAtlas"
+        ],
+        "5dY7GWmFNNFoupZrNH07ZM": [
+            "i18n/config/label/en",
+            "cc.JsonAsset"
+        ],
+        "99KTvE4OZItLuZETvbzuDt": [
+            "i18n/label/en",
+            "cc.JsonAsset"
+        ],
+        "4bwccC4MBEWruMJXW6/YvJ": [
+            "i18n/sprite/en/ab/Color_Bet",
+            "cc.Texture2D"
+        ],
+        "82AO3UW8NK3romL86KBGh/": [
+            "i18n/sprite/en/ab/Color_Bet",
+            "cc.SpriteFrame",
+            1
+        ],
+        "550Au3rZhGFL4tzPLBT/dd": [
+            "i18n/sprite/en/ab/Color_Bet_able",
+            "cc.Texture2D"
+        ],
+        "bavuOOyXRBmKAtSPLzzxDl": [
+            "i18n/sprite/en/ab/Color_Bet_able",
+            "cc.SpriteFrame",
+            1
+        ],
+        "1flcwhS1JMcqD4wMUSKre5": [
+            "i18n/sprite/en/ab/Final_Bet",
+            "cc.SpriteFrame",
+            1
+        ],
+        "68jjAfF65FDbM1V8ox/PM4": [
+            "i18n/sprite/en/ab/Final_Bet",
+            "cc.Texture2D"
+        ],
+        "49KThJl65ElpLdrmjVUas2": [
+            "i18n/sprite/en/ab/Final_Bet_able",
+            "cc.Texture2D"
+        ],
+        "87/9htvuJMF7sj2QpCnI6k": [
+            "i18n/sprite/en/ab/Final_Bet_able",
+            "cc.SpriteFrame",
+            1
+        ],
+        "68QfHQdNFMWITqT9klxhAL": [
+            "i18n/sprite/en/ab/First_Bet",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d6vjYIS35NbaN/ymRgOG1Z": [
+            "i18n/sprite/en/ab/First_Bet",
+            "cc.Texture2D"
+        ],
+        "93JUDyt0lBWIOR7lXwnTMR": [
+            "i18n/sprite/en/ab/First_Bet_able",
+            "cc.SpriteFrame",
+            1
+        ],
+        "edPslnYXdAsYyj9oE+U87w": [
+            "i18n/sprite/en/ab/First_Bet_able",
+            "cc.Texture2D"
+        ],
+        "23obenD2lF3phBrg+dW3Mh": [
+            "i18n/sprite/en/ab/colorbet",
+            "cc.SpriteFrame",
+            1
+        ],
+        "4dlCiY6gVPrpo4x40CNxqY": [
+            "i18n/sprite/en/ab/colorbet",
+            "cc.Texture2D"
+        ],
+        "1f9CcmfWlG24rYYNTqZ6Y/": [
+            "i18n/sprite/en/ab/finalbet",
+            "cc.Texture2D"
+        ],
+        "95AwmGslZEAZ6uTSbNrdMT": [
+            "i18n/sprite/en/ab/finalbet",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3aESdPtS1A2KJAtn5RDVy4": [
+            "i18n/sprite/en/ab/firstbet",
+            "cc.Texture2D"
+        ],
+        "bea2jlTstK1IFTPqFw+Vxv": [
+            "i18n/sprite/en/ab/firstbet",
+            "cc.SpriteFrame",
+            1
+        ],
+        "53GtGEDqxJVKzhDJE46CqX": [
+            "i18n/sprite/en/bindPhone/btn_blind",
+            "cc.Texture2D"
+        ],
+        "98qJIyjNVKIKtvBz1WjBRp": [
+            "i18n/sprite/en/bindPhone/btn_blind",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9fOaeowk9Lj4XU3FPhIpCx": [
+            "i18n/sprite/en/bindPhone/img_huodong_binding",
+            "cc.Texture2D"
+        ],
+        "e0UWDG7GNDfpXbUOO0l5IU": [
+            "i18n/sprite/en/bindPhone/img_huodong_binding",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7d18BmTHRECYSn7DhW71qo": [
+            "i18n/sprite/en/bindPhone/img_novicewelfare",
+            "cc.Texture2D"
+        ],
+        "90EscdR1lDMo97lajPV4nT": [
+            "i18n/sprite/en/bindPhone/img_novicewelfare",
+            "cc.SpriteFrame",
+            1
+        ],
+        "47V771/4pOaZuZolkRPQuw": [
+            "i18n/sprite/en/bindPhone/img_phone_title",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9bKb5PtnRIFoKNR71kqvIU": [
+            "i18n/sprite/en/bindPhone/img_phone_title",
+            "cc.Texture2D"
+        ],
+        "c0bR0rtjNAdICaLiwuHUUD": [
+            "i18n/sprite/en/box/img_box_title",
+            "cc.Texture2D"
+        ],
+        "c4I7tn2ZlElojikUGbjOZt": [
+            "i18n/sprite/en/box/img_box_title",
+            "cc.SpriteFrame",
+            1
+        ],
+        "297B+ejCZLV504Pcg9RRbM": [
+            "i18n/sprite/en/box/img_open",
+            "cc.SpriteFrame",
+            1
+        ],
+        "98tkO2gxJERZirGb1E2IlY": [
+            "i18n/sprite/en/box/img_open",
+            "cc.Texture2D"
+        ],
+        "a2XS0NhKFMSYe67bEXDNew": [
+            "i18n/sprite/en/emoji/gift",
+            "cc.SpriteFrame",
+            1
+        ],
+        "de9VAs+L5F7Y+2/wJOm14P": [
+            "i18n/sprite/en/emoji/gift",
+            "cc.Texture2D"
+        ],
+        "07uH79DTNKfqbJ9i4aJZ2s": [
+            "i18n/sprite/en/gameCommon/Dy_01",
+            "cc.SpriteFrame",
+            1
+        ],
+        "092BzGYiRHHp8y+bwYajGx": [
+            "i18n/sprite/en/gameCommon/Dy_01",
+            "cc.Texture2D"
+        ],
+        "d03WjsoaVP4YQ1gsyKOTvB": [
+            "i18n/sprite/en/gameCommon/STARTBET",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d7kP9Vt31F6btiHb6B50JF": [
+            "i18n/sprite/en/gameCommon/STARTBET",
+            "cc.Texture2D"
+        ],
+        "43paue0blCkI5W+DU+Buax": [
+            "i18n/sprite/en/gameCommon/START_BET",
+            "cc.SpriteFrame",
+            1
+        ],
+        "70aD8L0mVDtKnhjURfgDSt": [
+            "i18n/sprite/en/gameCommon/START_BET",
+            "cc.Texture2D"
+        ],
+        "07RPJPkDZAiKtXKeQlh897": [
+            "i18n/sprite/en/gameCommon/dyj_0001_xing03",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b5gAqSB5VDhY6w6IRye3bT": [
+            "i18n/sprite/en/gameCommon/dyj_0001_xing03",
+            "cc.Texture2D"
+        ],
+        "a28Rn3ZDFGsaiO5EjK98jd": [
+            "i18n/sprite/en/gameCommon/dyj_01",
+            "cc.Texture2D"
+        ],
+        "e7kQMthE9Mf76jAMyqMqSa": [
+            "i18n/sprite/en/gameCommon/dyj_01",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7axQjpQlRIS5mg7Er4+wSY": [
+            "i18n/sprite/en/gameCommon/img_startbet",
+            "cc.SpriteFrame",
+            1
+        ],
+        "dccBCC9HxLAqbjhU+p5mqb": [
+            "i18n/sprite/en/gameCommon/img_startbet",
+            "cc.Texture2D"
+        ],
+        "47kIbho4JMfIggWPwFe3lV": [
+            "i18n/sprite/en/gameCommon/img_startbet_able",
+            "cc.SpriteFrame",
+            1
+        ],
+        "abbHoxPFBAyIMLf3jRmYwz": [
+            "i18n/sprite/en/gameCommon/img_startbet_able",
+            "cc.Texture2D"
+        ],
+        "51c7g4DnFGt65hgtM7+LW4": [
+            "i18n/sprite/en/gameCommon/menu",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7fRr6j+aVODbfFslgeHNJE": [
+            "i18n/sprite/en/gameCommon/menu",
+            "cc.Texture2D"
+        ],
+        "3f+lMXiWZIRYP53IhPJA3/": [
+            "i18n/sprite/en/guideUI/FOR YOU",
+            "cc.Texture2D"
+        ],
+        "ed6GXx+lVKQavE0/HnIoZM": [
+            "i18n/sprite/en/guideUI/FOR YOU",
+            "cc.SpriteFrame",
+            1
+        ],
+        "66qHbg9phPnrPEUawih5bA": [
+            "i18n/sprite/en/guideUI/FREE",
+            "cc.SpriteFrame",
+            1
+        ],
+        "cfD5Net2RKOK5t4dv2s5tM": [
+            "i18n/sprite/en/guideUI/FREE",
+            "cc.Texture2D"
+        ],
+        "21AX27miNO564WE3sUhjEK": [
+            "i18n/sprite/en/pic",
+            "cc.Texture2D"
+        ],
+        "eafegBNCNG8IpP3GgoDIDu": [
+            "i18n/sprite/en/pic",
+            "cc.SpriteFrame",
+            1
+        ],
+        "32vnxVMQVGTYPLZfeerENG": [
+            "i18n/sprite/en/tableList/img_hot",
+            "cc.Texture2D"
+        ],
+        "e6rLaR2xtDEbORQfVIdg+8": [
+            "i18n/sprite/en/tableList/img_hot",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0c/N1dIshOYKqaMRBxnzuS": [
+            "i18n/sprite/en/tableList/lvse",
+            "cc.SpriteFrame",
+            1
+        ],
+        "87ozS51hJGZJ7GrcRAEkOU": [
+            "i18n/sprite/en/tableList/lvse",
+            "cc.Texture2D"
+        ],
+        "2bxR5DvmNKz7wKL62ELFFE": [
+            "i18n/sprite/en/toTP/img_tp_title",
+            "cc.SpriteFrame",
+            1
+        ],
+        "5dyMcrbQZHwbZ2MotnJ3u/": [
+            "i18n/sprite/en/toTP/img_tp_title",
+            "cc.Texture2D"
+        ],
+        "12Y0GNsXRFnYO2XqRgwOnw": [
+            "i18n/sprite/en/tp/Blind",
+            "cc.SpriteFrame",
+            1
+        ],
+        "19OPKbdZJHvZ4sDeSSCp+g": [
+            "i18n/sprite/en/tp/Blind",
+            "cc.Texture2D"
+        ],
+        "2f1ir1vdtCDKu03FDGt1fv": [
+            "i18n/sprite/en/tp/Blind_able",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3fB4dcg2ZPm4g4MTJIjJFd": [
+            "i18n/sprite/en/tp/Blind_able",
+            "cc.Texture2D"
+        ],
+        "41W3gROilEA4ZczLNjCro9": [
+            "i18n/sprite/en/tp/Chaal",
+            "cc.Texture2D"
+        ],
+        "f9koMynA1A9ZN+IHDPh5DR": [
+            "i18n/sprite/en/tp/Chaal",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3acpewRS1GA4PFXfUa8x/p": [
+            "i18n/sprite/en/tp/Chaal_able",
+            "cc.SpriteFrame",
+            1
+        ],
+        "barDGM+nFC85iHUBzxYlJT": [
+            "i18n/sprite/en/tp/Chaal_able",
+            "cc.Texture2D"
+        ],
+        "136Z9FB2hPzqmVEAw7VEsU": [
+            "i18n/sprite/en/tp/Color",
+            "cc.Texture2D"
+        ],
+        "a0b3ZAOytIC6HHGVNgjg+v": [
+            "i18n/sprite/en/tp/Color",
+            "cc.SpriteFrame",
+            1
+        ],
+        "14fi7cunFCrLnXMBmt+sF0": [
+            "i18n/sprite/en/tp/G_btn4",
+            "cc.SpriteFrame",
+            1
+        ],
+        "59OFCPC0ZJV4oGVuou+Ewl": [
+            "i18n/sprite/en/tp/G_btn4",
+            "cc.Texture2D"
+        ],
+        "94mA3rtwNJxZvh4FYxxVcG": [
+            "i18n/sprite/en/tp/High Card",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e1axthe3RFyITVr90M7A14": [
+            "i18n/sprite/en/tp/High Card",
+            "cc.Texture2D"
+        ],
+        "a5ypWZrLlKEr0FTLKLbTDo": [
+            "i18n/sprite/en/tp/Pair",
+            "cc.Texture2D"
+        ],
+        "bfYtOruMpGxLB+9t9utYvc": [
+            "i18n/sprite/en/tp/Pair",
+            "cc.SpriteFrame",
+            1
+        ],
+        "32oZCPSUdAQprQti4O0nhA": [
+            "i18n/sprite/en/tp/Pure Sequence",
+            "cc.Texture2D"
+        ],
+        "c7PngrfF5K34P0Yp7InRjf": [
+            "i18n/sprite/en/tp/Pure Sequence",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b1aPs/zu9A7YnfR8Yaon9g": [
+            "i18n/sprite/en/tp/SEE",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f3p31JPJ9MeImpbnazDvZ5": [
+            "i18n/sprite/en/tp/SEE",
+            "cc.Texture2D"
+        ],
+        "21fWNE07tNNqqHKB+Zswbv": [
+            "i18n/sprite/en/tp/Sequence",
+            "cc.Texture2D"
+        ],
+        "felI9XspRPQ54a1Gq/dtpT": [
+            "i18n/sprite/en/tp/Sequence",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c1PJTOCMdCBKd7a1Rkpvsz": [
+            "i18n/sprite/en/tp/Set",
+            "cc.SpriteFrame",
+            1
+        ],
+        "fbFWVlCdNJta0ScLtMJhRo": [
+            "i18n/sprite/en/tp/Set",
+            "cc.Texture2D"
+        ],
+        "0ejvgxj5VEx7HqO0XjOUsk": [
+            "i18n/sprite/en/tp/Show",
+            "cc.SpriteFrame",
+            1
+        ],
+        "7bJDDcmhlOvYCDxNbfu00u": [
+            "i18n/sprite/en/tp/Show",
+            "cc.Texture2D"
+        ],
+        "4fMAos48pE9rjU+t5MPCL4": [
+            "i18n/sprite/en/tp/Side",
+            "cc.SpriteFrame",
+            1
+        ],
+        "dbq4pjKgxPuba/e41616WH": [
+            "i18n/sprite/en/tp/Side",
+            "cc.Texture2D"
+        ],
+        "61HZhbZV5AjYF6Zkhdp79s": [
+            "i18n/sprite/en/tp/btn_seen",
+            "cc.SpriteFrame",
+            1
+        ],
+        "9bTYa6lCZOQZ6T23jsl4ev": [
+            "i18n/sprite/en/tp/btn_seen",
+            "cc.Texture2D"
+        ],
+        "beDPODCoJFkKkFMoaZmDEc": [
+            "i18n/sprite/en/tp/btn_seen_players",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d1jkFeBt5HGIeJrcOhmrGL": [
+            "i18n/sprite/en/tp/btn_seen_players",
+            "cc.Texture2D"
+        ],
+        "9ag0e3GBtL55peR0LmZltE": [
+            "i18n/sprite/en/tp/wode-see",
+            "cc.Texture2D"
+        ],
+        "a9vQpe0WREapfMXtothwVg": [
+            "i18n/sprite/en/tp/wode-see",
+            "cc.SpriteFrame",
+            1
+        ],
+        "70rnSdj6NHtqsibRUcaEmN": [
+            "prefabs/SceneMask",
+            "cc.Prefab"
+        ],
+        "61oR4GSRtBtbq361gGNv/R": [
+            "prefabs/alert",
+            "cc.Prefab"
+        ],
+        "99Yo6yViRHH5J9VaaUACzq": [
+            "prefabs/loading",
+            "cc.Prefab"
+        ],
+        "4fRkvQw5VPTZyp+uSYQPCN": [
+            "prefabs/toast",
+            "cc.Prefab"
+        ],
+        "73IJ3DiV9HNagxwl7+tKg1": [
+            "prefabs/webview",
+            "cc.Prefab"
+        ]
+    },
+    "uuids": [
+        "00Z5f3O+tBOa/Dfmf128S9",
+        "07RPJPkDZAiKtXKeQlh897",
+        "07bvIpKKZJZpjxyzsrAsn6",
+        "07uH79DTNKfqbJ9i4aJZ2s",
+        "078Sfj5KNDw4dexOktz1p9",
+        "092BzGYiRHHp8y+bwYajGx",
+        "0aENYEuKtNHqKmPbtwgsoV",
+        "0azBeDqktMlbCN/QVjcqWj",
+        "0cK7Ar3J1Af4cb02ipNbjM",
+        "0c/N1dIshOYKqaMRBxnzuS",
+        "0dpCmdJrFMg63PwzinYU6G",
+        "0ejvgxj5VEx7HqO0XjOUsk",
+        "11e2145bd",
+        "12Y0GNsXRFnYO2XqRgwOnw",
+        "136Z9FB2hPzqmVEAw7VEsU",
+        "14fi7cunFCrLnXMBmt+sF0",
+        "15b0b8730",
+        "173760b80",
+        "19OPKbdZJHvZ4sDeSSCp+g",
+        "1d670ace8",
+        "1e8f660c5",
+        "1ef5e4575",
+        "1flcwhS1JMcqD4wMUSKre5",
+        "1fb9f643d",
+        "1f9CcmfWlG24rYYNTqZ6Y/",
+        "21AX27miNO564WE3sUhjEK",
+        "21fWNE07tNNqqHKB+Zswbv",
+        "23obenD2lF3phBrg+dW3Mh",
+        "288BrmrNlJxJg80tdFPaQI",
+        "29FYIk+N1GYaeWH/q1NxQO",
+        "29q2m5b2dCAZ68WJSHRuZP",
+        "297B+ejCZLV504Pcg9RRbM",
+        "2bxR5DvmNKz7wKL62ELFFE",
+        "2fKdDsK99CZZJtam69ZtpG",
+        "2f1ir1vdtCDKu03FDGt1fv",
+        "32oZCPSUdAQprQti4O0nhA",
+        "32vnxVMQVGTYPLZfeerENG",
+        "33CmZPhcVHVoLOhdmzq24Z",
+        "37uae7q5xELa1N5Y/stJra",
+        "39hZlaRvtAsr1+U/XIXH6k",
+        "3aESdPtS1A2KJAtn5RDVy4",
+        "3acpewRS1GA4PFXfUa8x/p",
+        "3ae7efMv1CLq2ilvUY/tQi",
+        "3bkDAfOLJCA5f9EQ8T+0Rw",
+        "3fB4dcg2ZPm4g4MTJIjJFd",
+        "3f+lMXiWZIRYP53IhPJA3/",
+        "41W3gROilEA4ZczLNjCro9",
+        "43paue0blCkI5W+DU+Buax",
+        "44CKpu/6RPto6CGOPCpqeh",
+        "47V771/4pOaZuZolkRPQuw",
+        "47kIbho4JMfIggWPwFe3lV",
+        "47/IjEYi5MzZ3DJ9V/YrnU",
+        "49KThJl65ElpLdrmjVUas2",
+        "4bWWsph3JC95nOkXwJHL0F",
+        "4bwccC4MBEWruMJXW6/YvJ",
+        "4cMNsOaRBFP5qQWVx0+te1",
+        "4dlCiY6gVPrpo4x40CNxqY",
+        "4fMAos48pE9rjU+t5MPCL4",
+        "4fRkvQw5VPTZyp+uSYQPCN",
+        "51c7g4DnFGt65hgtM7+LW4",
+        "53GtGEDqxJVKzhDJE46CqX",
+        "53MgSiNlFFEKX7o+x3DXAi",
+        "54285YL8dD9Z3iJMTpEhNn",
+        "550Au3rZhGFL4tzPLBT/dd",
+        "59OFCPC0ZJV4oGVuou+Ewl",
+        "5dY7GWmFNNFoupZrNH07ZM",
+        "5doCJ8ZmBOxoaotQsAmhyl",
+        "5dyMcrbQZHwbZ2MotnJ3u/",
+        "5f8ymOFlVLzJf57bBgPJT1",
+        "60S1Eh92hBB5Z7UY3kWfHh",
+        "61HZhbZV5AjYF6Zkhdp79s",
+        "61oR4GSRtBtbq361gGNv/R",
+        "62bFiMjLVMkIbzFz2zLYVh",
+        "66qHbg9phPnrPEUawih5bA",
+        "68QfHQdNFMWITqT9klxhAL",
+        "68jjAfF65FDbM1V8ox/PM4",
+        "70aD8L0mVDtKnhjURfgDSt",
+        "70rnSdj6NHtqsibRUcaEmN",
+        "71VhFCTINJM6/Ky3oX9nBT",
+        "73IJ3DiV9HNagxwl7+tKg1",
+        "731395LWRKGq+FyDmqxWrF",
+        "75e+KRv+tPv7n46s8dBPtR",
+        "77hqAHaD5PdosLwjIktMdH",
+        "78l/TBi1JNGq4JfaCsz7MK",
+        "7axQjpQlRIS5mg7Er4+wSY",
+        "7a17uyBKxPKYxVHxM2a/Jj",
+        "7bJDDcmhlOvYCDxNbfu00u",
+        "7d18BmTHRECYSn7DhW71qo",
+        "7fRr6j+aVODbfFslgeHNJE",
+        "80efkLrfZCSaGVgx3ADqZG",
+        "82AO3UW8NK3romL86KBGh/",
+        "85Y2dlRGBKuahhuSOe03AV",
+        "86hFqoaXtH2LxWCdXevVyt",
+        "87P9bvE75D86vJiGA02I2P",
+        "87ozS51hJGZJ7GrcRAEkOU",
+        "87/9htvuJMF7sj2QpCnI6k",
+        "8c0GsNYWhKT4NCExknOxKi",
+        "90EscdR1lDMo97lajPV4nT",
+        "93JUDyt0lBWIOR7lXwnTMR",
+        "94mA3rtwNJxZvh4FYxxVcG",
+        "95AwmGslZEAZ6uTSbNrdMT",
+        "98qJIyjNVKIKtvBz1WjBRp",
+        "98tkO2gxJERZirGb1E2IlY",
+        "99KTvE4OZItLuZETvbzuDt",
+        "99Yo6yViRHH5J9VaaUACzq",
+        "9ag0e3GBtL55peR0LmZltE",
+        "9bKb5PtnRIFoKNR71kqvIU",
+        "9bTYa6lCZOQZ6T23jsl4ev",
+        "9fOaeowk9Lj4XU3FPhIpCx",
+        "a0b3ZAOytIC6HHGVNgjg+v",
+        "a2XS0NhKFMSYe67bEXDNew",
+        "a28Rn3ZDFGsaiO5EjK98jd",
+        "a5ypWZrLlKEr0FTLKLbTDo",
+        "a8+cuF4btIAaye8xDZK5sd",
+        "a9vQpe0WREapfMXtothwVg",
+        "abbHoxPFBAyIMLf3jRmYwz",
+        "abk5+7DZJL0p2Dmpgi6oDD",
+        "abt7I5sYRCM656F5IdP3D0",
+        "afwX/PpIJOtbYUiiifSXeA",
+        "b1aPs/zu9A7YnfR8Yaon9g",
+        "b3u8PKy7hAuKTHnQ+zbEkt",
+        "b3x1NFrrVKtrWxMFVGa5E2",
+        "b5gAqSB5VDhY6w6IRye3bT",
+        "b88KMPunhCarDuQqUHridj",
+        "b9TckRe4lAK5zn9ilNlF1D",
+        "barDGM+nFC85iHUBzxYlJT",
+        "bavuOOyXRBmKAtSPLzzxDl",
+        "beDPODCoJFkKkFMoaZmDEc",
+        "bea2jlTstK1IFTPqFw+Vxv",
+        "bfYtOruMpGxLB+9t9utYvc",
+        "c0bR0rtjNAdICaLiwuHUUD",
+        "c1PJTOCMdCBKd7a1Rkpvsz",
+        "c4I7tn2ZlElojikUGbjOZt",
+        "c6TWZ4XqZOOK8UsQSVTmY4",
+        "c6YKnyxj1H9LXbB/Be7KSY",
+        "c6dVg5ZYxFVaEO4oBAFfAD",
+        "c7PngrfF5K34P0Yp7InRjf",
+        "c9DQoYqCdIrrXTZ8SbHOS4",
+        "cat4rOX2dFSKHmbHPoFB8T",
+        "cb/LkExO5MLJdKJt+2bI9V",
+        "cfD5Net2RKOK5t4dv2s5tM",
+        "d03WjsoaVP4YQ1gsyKOTvB",
+        "d1jkFeBt5HGIeJrcOhmrGL",
+        "d6vjYIS35NbaN/ymRgOG1Z",
+        "d7kP9Vt31F6btiHb6B50JF",
+        "dbq4pjKgxPuba/e41616WH",
+        "dccBCC9HxLAqbjhU+p5mqb",
+        "dciPJgq9NDzoZO5b9SmYca",
+        "de4oAlAItKy7r2HaNm1kP/",
+        "de9VAs+L5F7Y+2/wJOm14P",
+        "dfA3ImjFRKzJNtPPJDAjx0",
+        "dfIHLIrxFGRqdrILS55z2P",
+        "e0UWDG7GNDfpXbUOO0l5IU",
+        "e1axthe3RFyITVr90M7A14",
+        "e5xcrTF/hF8I1xgQGLHm5I",
+        "e6rLaR2xtDEbORQfVIdg+8",
+        "e7kQMthE9Mf76jAMyqMqSa",
+        "e8Ueib+qJEhL6mXAHdnwbi",
+        "eafegBNCNG8IpP3GgoDIDu",
+        "ebXKfQPv9FDJBy6pCwBXBN",
+        "ecpdLyjvZBwrvm+cedCcQy",
+        "edPslnYXdAsYyj9oE+U87w",
+        "ed6GXx+lVKQavE0/HnIoZM",
+        "f0BIwQ8D5Ml7nTNQbh1YlS",
+        "f3p31JPJ9MeImpbnazDvZ5",
+        "f7yE2yAQFBJIgsP2OrkNhE",
+        "f81HQwtHdDnargQjBXHTHs",
+        "f9koMynA1A9ZN+IHDPh5DR",
+        "fbFWVlCdNJta0ScLtMJhRo",
+        "felI9XspRPQ54a1Gq/dtpT"
+    ],
+    "scenes": {
+        "db://assets/login/scene/launch.fire": "abt7I5sYRCM656F5IdP3D0",
+        "db://assets/login/scene/login_teen_patti_master_non_senstive.fire": "7a17uyBKxPKYxVHxM2a/Jj"
+    },
+    "redirect": [
+        "3ae7efMv1CLq2ilvUY/tQi",
+        0,
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "0f4c66cc3": [
+            "00Z5f3O+tBOa/Dfmf128S9",
+            "07RPJPkDZAiKtXKeQlh897",
+            "07bvIpKKZJZpjxyzsrAsn6",
+            "07uH79DTNKfqbJ9i4aJZ2s",
+            "078Sfj5KNDw4dexOktz1p9",
+            "092BzGYiRHHp8y+bwYajGx",
+            "0aENYEuKtNHqKmPbtwgsoV",
+            "0azBeDqktMlbCN/QVjcqWj",
+            "0cK7Ar3J1Af4cb02ipNbjM",
+            "0c/N1dIshOYKqaMRBxnzuS",
+            "0dpCmdJrFMg63PwzinYU6G",
+            "0ejvgxj5VEx7HqO0XjOUsk",
+            "11e2145bd",
+            "12Y0GNsXRFnYO2XqRgwOnw",
+            "136Z9FB2hPzqmVEAw7VEsU",
+            "14fi7cunFCrLnXMBmt+sF0",
+            "15b0b8730",
+            "173760b80",
+            "19OPKbdZJHvZ4sDeSSCp+g",
+            "1d670ace8",
+            "1e8f660c5",
+            "1ef5e4575",
+            "1flcwhS1JMcqD4wMUSKre5",
+            "1fb9f643d",
+            "1f9CcmfWlG24rYYNTqZ6Y/",
+            "21AX27miNO564WE3sUhjEK",
+            "21fWNE07tNNqqHKB+Zswbv",
+            "23obenD2lF3phBrg+dW3Mh",
+            "288BrmrNlJxJg80tdFPaQI",
+            "29FYIk+N1GYaeWH/q1NxQO",
+            "29q2m5b2dCAZ68WJSHRuZP",
+            "297B+ejCZLV504Pcg9RRbM",
+            "2bxR5DvmNKz7wKL62ELFFE",
+            "2fKdDsK99CZZJtam69ZtpG",
+            "2f1ir1vdtCDKu03FDGt1fv",
+            "32oZCPSUdAQprQti4O0nhA",
+            "32vnxVMQVGTYPLZfeerENG",
+            "33CmZPhcVHVoLOhdmzq24Z",
+            "37uae7q5xELa1N5Y/stJra",
+            "39hZlaRvtAsr1+U/XIXH6k",
+            "3aESdPtS1A2KJAtn5RDVy4",
+            "3acpewRS1GA4PFXfUa8x/p",
+            "3bkDAfOLJCA5f9EQ8T+0Rw",
+            "3fB4dcg2ZPm4g4MTJIjJFd",
+            "3f+lMXiWZIRYP53IhPJA3/",
+            "41W3gROilEA4ZczLNjCro9",
+            "43paue0blCkI5W+DU+Buax",
+            "44CKpu/6RPto6CGOPCpqeh",
+            "47V771/4pOaZuZolkRPQuw",
+            "47kIbho4JMfIggWPwFe3lV",
+            "47/IjEYi5MzZ3DJ9V/YrnU",
+            "49KThJl65ElpLdrmjVUas2",
+            "4bWWsph3JC95nOkXwJHL0F",
+            "4bwccC4MBEWruMJXW6/YvJ",
+            "4cMNsOaRBFP5qQWVx0+te1",
+            "4dlCiY6gVPrpo4x40CNxqY",
+            "4fMAos48pE9rjU+t5MPCL4",
+            "4fRkvQw5VPTZyp+uSYQPCN",
+            "51c7g4DnFGt65hgtM7+LW4",
+            "53GtGEDqxJVKzhDJE46CqX",
+            "53MgSiNlFFEKX7o+x3DXAi",
+            "54285YL8dD9Z3iJMTpEhNn",
+            "550Au3rZhGFL4tzPLBT/dd",
+            "59OFCPC0ZJV4oGVuou+Ewl",
+            "5dY7GWmFNNFoupZrNH07ZM",
+            "5doCJ8ZmBOxoaotQsAmhyl",
+            "5dyMcrbQZHwbZ2MotnJ3u/",
+            "5f8ymOFlVLzJf57bBgPJT1",
+            "60S1Eh92hBB5Z7UY3kWfHh",
+            "61HZhbZV5AjYF6Zkhdp79s",
+            "61oR4GSRtBtbq361gGNv/R",
+            "62bFiMjLVMkIbzFz2zLYVh",
+            "66qHbg9phPnrPEUawih5bA",
+            "68QfHQdNFMWITqT9klxhAL",
+            "68jjAfF65FDbM1V8ox/PM4",
+            "70aD8L0mVDtKnhjURfgDSt",
+            "70rnSdj6NHtqsibRUcaEmN",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "73IJ3DiV9HNagxwl7+tKg1",
+            "731395LWRKGq+FyDmqxWrF",
+            "75e+KRv+tPv7n46s8dBPtR",
+            "77hqAHaD5PdosLwjIktMdH",
+            "78l/TBi1JNGq4JfaCsz7MK",
+            "7axQjpQlRIS5mg7Er4+wSY",
+            "7a17uyBKxPKYxVHxM2a/Jj",
+            "7bJDDcmhlOvYCDxNbfu00u",
+            "7d18BmTHRECYSn7DhW71qo",
+            "7fRr6j+aVODbfFslgeHNJE",
+            "80efkLrfZCSaGVgx3ADqZG",
+            "82AO3UW8NK3romL86KBGh/",
+            "85Y2dlRGBKuahhuSOe03AV",
+            "86hFqoaXtH2LxWCdXevVyt",
+            "87P9bvE75D86vJiGA02I2P",
+            "87ozS51hJGZJ7GrcRAEkOU",
+            "87/9htvuJMF7sj2QpCnI6k",
+            "8c0GsNYWhKT4NCExknOxKi",
+            "90EscdR1lDMo97lajPV4nT",
+            "93JUDyt0lBWIOR7lXwnTMR",
+            "94mA3rtwNJxZvh4FYxxVcG",
+            "95AwmGslZEAZ6uTSbNrdMT",
+            "98qJIyjNVKIKtvBz1WjBRp",
+            "98tkO2gxJERZirGb1E2IlY",
+            "99KTvE4OZItLuZETvbzuDt",
+            "99Yo6yViRHH5J9VaaUACzq",
+            "9ag0e3GBtL55peR0LmZltE",
+            "9bKb5PtnRIFoKNR71kqvIU",
+            "9bTYa6lCZOQZ6T23jsl4ev",
+            "9fOaeowk9Lj4XU3FPhIpCx",
+            "a0b3ZAOytIC6HHGVNgjg+v",
+            "a2XS0NhKFMSYe67bEXDNew",
+            "a28Rn3ZDFGsaiO5EjK98jd",
+            "a5ypWZrLlKEr0FTLKLbTDo",
+            "a8+cuF4btIAaye8xDZK5sd",
+            "a9vQpe0WREapfMXtothwVg",
+            "abbHoxPFBAyIMLf3jRmYwz",
+            "abk5+7DZJL0p2Dmpgi6oDD",
+            "abt7I5sYRCM656F5IdP3D0",
+            "afwX/PpIJOtbYUiiifSXeA",
+            "b1aPs/zu9A7YnfR8Yaon9g",
+            "b3u8PKy7hAuKTHnQ+zbEkt",
+            "b3x1NFrrVKtrWxMFVGa5E2",
+            "b5gAqSB5VDhY6w6IRye3bT",
+            "b88KMPunhCarDuQqUHridj",
+            "b9TckRe4lAK5zn9ilNlF1D",
+            "barDGM+nFC85iHUBzxYlJT",
+            "bavuOOyXRBmKAtSPLzzxDl",
+            "beDPODCoJFkKkFMoaZmDEc",
+            "bea2jlTstK1IFTPqFw+Vxv",
+            "bfYtOruMpGxLB+9t9utYvc",
+            "c0bR0rtjNAdICaLiwuHUUD",
+            "c1PJTOCMdCBKd7a1Rkpvsz",
+            "c4I7tn2ZlElojikUGbjOZt",
+            "c6TWZ4XqZOOK8UsQSVTmY4",
+            "c6YKnyxj1H9LXbB/Be7KSY",
+            "c6dVg5ZYxFVaEO4oBAFfAD",
+            "c7PngrfF5K34P0Yp7InRjf",
+            "c9DQoYqCdIrrXTZ8SbHOS4",
+            "cat4rOX2dFSKHmbHPoFB8T",
+            "cb/LkExO5MLJdKJt+2bI9V",
+            "cfD5Net2RKOK5t4dv2s5tM",
+            "d03WjsoaVP4YQ1gsyKOTvB",
+            "d1jkFeBt5HGIeJrcOhmrGL",
+            "d6vjYIS35NbaN/ymRgOG1Z",
+            "d7kP9Vt31F6btiHb6B50JF",
+            "dbq4pjKgxPuba/e41616WH",
+            "dccBCC9HxLAqbjhU+p5mqb",
+            "dciPJgq9NDzoZO5b9SmYca",
+            "de4oAlAItKy7r2HaNm1kP/",
+            "de9VAs+L5F7Y+2/wJOm14P",
+            "dfA3ImjFRKzJNtPPJDAjx0",
+            "dfIHLIrxFGRqdrILS55z2P",
+            "e0UWDG7GNDfpXbUOO0l5IU",
+            "e1axthe3RFyITVr90M7A14",
+            "e5xcrTF/hF8I1xgQGLHm5I",
+            "e6rLaR2xtDEbORQfVIdg+8",
+            "e7kQMthE9Mf76jAMyqMqSa",
+            "e8Ueib+qJEhL6mXAHdnwbi",
+            "eafegBNCNG8IpP3GgoDIDu",
+            "ebXKfQPv9FDJBy6pCwBXBN",
+            "edPslnYXdAsYyj9oE+U87w",
+            "ed6GXx+lVKQavE0/HnIoZM",
+            "f0BIwQ8D5Ml7nTNQbh1YlS",
+            "f3p31JPJ9MeImpbnazDvZ5",
+            "f7yE2yAQFBJIgsP2OrkNhE",
+            "f81HQwtHdDnargQjBXHTHs",
+            "f9koMynA1A9ZN+IHDPh5DR",
+            "fbFWVlCdNJta0ScLtMJhRo",
+            "felI9XspRPQ54a1Gq/dtpT"
+        ]
+    },
+    "name": "login",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0f4c66cc3",
+            "6ac53"
+        ],
+        "native": [
+            "092BzGYiRHHp8y+bwYajGx",
+            "42db2",
+            "11e2145bd",
+            "b68a3",
+            "136Z9FB2hPzqmVEAw7VEsU",
+            "508f3",
+            "15b0b8730",
+            "d371b",
+            "173760b80",
+            "9cb18",
+            "19OPKbdZJHvZ4sDeSSCp+g",
+            "2dd1b",
+            "1d670ace8",
+            "5183d",
+            "1e8f660c5",
+            "44e6a",
+            "1ef5e4575",
+            "90fca",
+            "1fb9f643d",
+            "328bc",
+            "1f9CcmfWlG24rYYNTqZ6Y/",
+            "86e9b",
+            "21AX27miNO564WE3sUhjEK",
+            "e2295",
+            "21fWNE07tNNqqHKB+Zswbv",
+            "e84f8",
+            "32oZCPSUdAQprQti4O0nhA",
+            "5f4a8",
+            "32vnxVMQVGTYPLZfeerENG",
+            "d03d2",
+            "3aESdPtS1A2KJAtn5RDVy4",
+            "e57d5",
+            "3fB4dcg2ZPm4g4MTJIjJFd",
+            "e9a7e",
+            "3f+lMXiWZIRYP53IhPJA3/",
+            "0b2a9",
+            "41W3gROilEA4ZczLNjCro9",
+            "f335a",
+            "44CKpu/6RPto6CGOPCpqeh",
+            "19fed",
+            "47/IjEYi5MzZ3DJ9V/YrnU",
+            "56aa1",
+            "49KThJl65ElpLdrmjVUas2",
+            "aec72",
+            "4bwccC4MBEWruMJXW6/YvJ",
+            "2aac0",
+            "4cMNsOaRBFP5qQWVx0+te1",
+            "cc953",
+            "4dlCiY6gVPrpo4x40CNxqY",
+            "40d3d",
+            "53GtGEDqxJVKzhDJE46CqX",
+            "b20b2",
+            "550Au3rZhGFL4tzPLBT/dd",
+            "3f318",
+            "59OFCPC0ZJV4oGVuou+Ewl",
+            "bd506",
+            "5dyMcrbQZHwbZ2MotnJ3u/",
+            "1e480",
+            "62bFiMjLVMkIbzFz2zLYVh",
+            "0bc79",
+            "68jjAfF65FDbM1V8ox/PM4",
+            "d5f94",
+            "70aD8L0mVDtKnhjURfgDSt",
+            "19a58",
+            "71VhFCTINJM6/Ky3oX9nBT",
+            "c06a9",
+            "731395LWRKGq+FyDmqxWrF",
+            "d1ef8",
+            "77hqAHaD5PdosLwjIktMdH",
+            "b81e0",
+            "78l/TBi1JNGq4JfaCsz7MK",
+            "6b664",
+            "7bJDDcmhlOvYCDxNbfu00u",
+            "70288",
+            "7d18BmTHRECYSn7DhW71qo",
+            "7b564",
+            "7fRr6j+aVODbfFslgeHNJE",
+            "99d09",
+            "87P9bvE75D86vJiGA02I2P",
+            "bd57a",
+            "87ozS51hJGZJ7GrcRAEkOU",
+            "ba6ab",
+            "98tkO2gxJERZirGb1E2IlY",
+            "c129b",
+            "9ag0e3GBtL55peR0LmZltE",
+            "5bdde",
+            "9bKb5PtnRIFoKNR71kqvIU",
+            "d37f8",
+            "9bTYa6lCZOQZ6T23jsl4ev",
+            "67cc8",
+            "9fOaeowk9Lj4XU3FPhIpCx",
+            "e4515",
+            "a28Rn3ZDFGsaiO5EjK98jd",
+            "46c04",
+            "a5ypWZrLlKEr0FTLKLbTDo",
+            "ee038",
+            "a8+cuF4btIAaye8xDZK5sd",
+            "c00b5",
+            "abbHoxPFBAyIMLf3jRmYwz",
+            "8ff65",
+            "b5gAqSB5VDhY6w6IRye3bT",
+            "8617f",
+            "b88KMPunhCarDuQqUHridj",
+            "7b965",
+            "barDGM+nFC85iHUBzxYlJT",
+            "7160f",
+            "c0bR0rtjNAdICaLiwuHUUD",
+            "42261",
+            "c6TWZ4XqZOOK8UsQSVTmY4",
+            "f1290",
+            "c6YKnyxj1H9LXbB/Be7KSY",
+            "22f51",
+            "cb/LkExO5MLJdKJt+2bI9V",
+            "5918e",
+            "cfD5Net2RKOK5t4dv2s5tM",
+            "d7a8f",
+            "d1jkFeBt5HGIeJrcOhmrGL",
+            "ead38",
+            "d6vjYIS35NbaN/ymRgOG1Z",
+            "f9144",
+            "d7kP9Vt31F6btiHb6B50JF",
+            "ea257",
+            "dbq4pjKgxPuba/e41616WH",
+            "a9cd8",
+            "dccBCC9HxLAqbjhU+p5mqb",
+            "c8cbb",
+            "de9VAs+L5F7Y+2/wJOm14P",
+            "367b1",
+            "dfA3ImjFRKzJNtPPJDAjx0",
+            "6b40a",
+            "dfIHLIrxFGRqdrILS55z2P",
+            "3ee85",
+            "e1axthe3RFyITVr90M7A14",
+            "1d12e",
+            "e5xcrTF/hF8I1xgQGLHm5I",
+            "82e52",
+            "e8Ueib+qJEhL6mXAHdnwbi",
+            "90cf4",
+            "edPslnYXdAsYyj9oE+U87w",
+            "04c1a",
+            "f3p31JPJ9MeImpbnazDvZ5",
+            "d49f9",
+            "f81HQwtHdDnargQjBXHTHs",
+            "da0dc",
+            "fbFWVlCdNJta0ScLtMJhRo",
+            "10811"
+        ]
+    }
+}

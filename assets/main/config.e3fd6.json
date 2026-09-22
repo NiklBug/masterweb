@@ -1,0 +1,48 @@
+{
+    "paths": {},
+    "uuids": [
+        "4bWWsph3JC95nOkXwJHL0F",
+        "545dLo58xMhanH4q6INlxM",
+        "5f8ymOFlVLzJf57bBgPJT1",
+        "a8+cuF4btIAaye8xDZK5sd",
+        "dfA3ImjFRKzJNtPPJDAjx0",
+        "ecpdLyjvZBwrvm+cedCcQy"
+    ],
+    "scenes": {
+        "db://assets/loading/scene/loading.fire": "545dLo58xMhanH4q6INlxM"
+    },
+    "redirect": [
+        "ecpdLyjvZBwrvm+cedCcQy",
+        0
+    ],
+    "deps": [
+        "internal"
+    ],
+    "packs": {
+        "0a9f26c4e": [
+            "4bWWsph3JC95nOkXwJHL0F",
+            "545dLo58xMhanH4q6INlxM",
+            "5f8ymOFlVLzJf57bBgPJT1",
+            "a8+cuF4btIAaye8xDZK5sd",
+            "dfA3ImjFRKzJNtPPJDAjx0"
+        ]
+    },
+    "name": "main",
+    "importBase": "import",
+    "nativeBase": "native",
+    "debug": true,
+    "isZip": false,
+    "encrypted": false,
+    "versions": {
+        "import": [
+            "0a9f26c4e",
+            "78468"
+        ],
+        "native": [
+            "a8+cuF4btIAaye8xDZK5sd",
+            "c00b5",
+            "dfA3ImjFRKzJNtPPJDAjx0",
+            "6b40a"
+        ]
+    }
+}
