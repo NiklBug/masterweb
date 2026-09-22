@@ -39466,7 +39466,7 @@ window.__require = function e(t, n, r) {
           var value = handlers_1[_i];
           value.fn.call(value.target, body);
         }
-        "ErrorMessageBroadCast" == msgId ? VV_1.vv.uiMgr.netErrorMessage(data.data.error_code) : "PlayerKickLogoutBroadCast" == msgId ? VV_1.vv.uiMgr.kickLogoutBroadCast() : "HeartBeatResponse" != msgId && VV_1.vv.logger.log("\u6536\u5230\u6d88\u606f\uff1a", data);
+        "ErrorMessageBroadCast" == msgId ? VV_1.vv.uiMgr.netErrorMessage(data.data.error_code) : "PlayerKickLogoutBroadCast" == msgId ? VV_1.vv.uiMgr.kickLogoutBroadCast() : "HeartBeatResponse" != msgId && VV_1.vv.logger.log("\u6536\u5230\u6d88\u606f\uff1a", data ? JSON.stringify(data) : data);
         VV_1.vv.gameMgr && VV_1.vv.gameMgr.deleteNetDelayedTimer(msgId);
       };
       Net.prototype.sendMsgData = function(data) {

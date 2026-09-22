@@ -30,6 +30,6 @@ window._CCSettings = {
         lobby: "965eb",
         login: "16be4",
         resources: "eb63a",
-        main: "fe7bf"
+        main: "f4c43"
     }
 };
