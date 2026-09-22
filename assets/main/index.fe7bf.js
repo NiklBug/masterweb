@@ -25802,9 +25802,10 @@ window.__require = function e(t, n, r) {
       DefaultLogger.prototype._print = function(method) {
         var args = [];
         for (var _i = 1; _i < arguments.length; _i++) args[_i - 1] = arguments[_i];
-        var i;
-        var arg;
-        false;
+        for (var i = 0; i < args.length; i++) {
+          var arg = args[i];
+          (!Array.isArray(arg) || arg[0] instanceof cc._BaseNode) && (Array.isArray(arg) || "object" != typeof arg || arg instanceof cc._BaseNode) || (args[i] = JSON.stringify(arg));
+        }
         console[method].apply(console, args);
       };
       return DefaultLogger;
