@@ -40532,7 +40532,9 @@ window.__require = function e(t, n, r) {
         VV_1.vv.uiMgr.hideLoading();
         if (data && data.callback_url) {
           this._isRecharging = true;
-          window.SystemOperation && window.SystemOperation.openUrl && window.SystemOperation.openUrl(data.callback_url);
+          VV_1.vv.logger.log("window.SystemOperation;", window["SystemOperation"]);
+          window["SystemOperation"] && window["SystemOperation"].openUrl && window["SystemOperation"].openUrl(data.callback_url);
+          VV_1.vv.logger.log("window.SystemOperation;", window.SystemOperation);
         } else VV_1.vv.toast.show("charge error:" + data.err_msg ? data.err_msg : data);
       };
       PayMgr.onWithDrawRsp = function(data) {
