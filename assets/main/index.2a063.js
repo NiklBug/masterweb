@@ -1156,6 +1156,9 @@ window.__require = function e(t, n, r) {
           null == this._isDebug && (this._isDebug = false);
           return this._isDebug;
         },
+        set: function(value) {
+          this._isDebug = value;
+        },
         enumerable: false,
         configurable: true
       });
@@ -1164,6 +1167,9 @@ window.__require = function e(t, n, r) {
           this._packageName || false;
           this._packageName || (this._packageName = "com.act.onlieRangoliPo.in.unt");
           return this._packageName;
+        },
+        set: function(value) {
+          this._packageName = value;
         },
         enumerable: false,
         configurable: true
@@ -1174,6 +1180,9 @@ window.__require = function e(t, n, r) {
           this._appName || (this._appName = "TeenPattiSunday");
           return this._appName;
         },
+        set: function(value) {
+          this._appName = value;
+        },
         enumerable: false,
         configurable: true
       });
@@ -1183,6 +1192,9 @@ window.__require = function e(t, n, r) {
           this._versionName || (this._versionName = "1.0.0");
           return this._versionName;
         },
+        set: function(value) {
+          this._versionName = value;
+        },
         enumerable: false,
         configurable: true
       });
@@ -1191,6 +1203,9 @@ window.__require = function e(t, n, r) {
           this._versionCode || false;
           this._versionCode || (this._versionCode = 1);
           return this._versionCode;
+        },
+        set: function(value) {
+          this._versionCode = value;
         },
         enumerable: false,
         configurable: true
@@ -25802,10 +25817,9 @@ window.__require = function e(t, n, r) {
       DefaultLogger.prototype._print = function(method) {
         var args = [];
         for (var _i = 1; _i < arguments.length; _i++) args[_i - 1] = arguments[_i];
-        for (var i = 0; i < args.length; i++) {
-          var arg = args[i];
-          (!Array.isArray(arg) || arg[0] instanceof cc._BaseNode) && (Array.isArray(arg) || "object" != typeof arg || arg instanceof cc._BaseNode) || (args[i] = JSON.stringify(arg));
-        }
+        var i;
+        var arg;
+        false;
         console[method].apply(console, args);
       };
       return DefaultLogger;
@@ -30873,7 +30887,10 @@ window.__require = function e(t, n, r) {
       Object.defineProperty(FFActivationWrapper, "googleInstallInfo", {
         get: function() {
           false;
-          return "";
+          return this._googleInstallInfo;
+        },
+        set: function(value) {
+          this._googleInstallInfo = value;
         },
         enumerable: false,
         configurable: true
@@ -30902,6 +30919,7 @@ window.__require = function e(t, n, r) {
         enumerable: false,
         configurable: true
       });
+      FFActivationWrapper._googleInstallInfo = "";
       FFActivationWrapper._javaClassPath = "com/game/pro/FFActivationWrapper";
       FFActivationWrapper._did = "";
       FFActivationWrapper._didGenTimestamp = 0;
@@ -31097,6 +31115,9 @@ window.__require = function e(t, n, r) {
           StringUtil_1.StringUtil.isEmpty(this._appsflyerUid) && false;
           return this._appsflyerUid;
         },
+        set: function(value) {
+          this._appsflyerUid = value;
+        },
         enumerable: false,
         configurable: true
       });
@@ -31105,6 +31126,9 @@ window.__require = function e(t, n, r) {
           if (!StringUtil_1.StringUtil.isEmpty(this.m_pushChannel) && "organic" != this.m_pushChannel.toLocaleLowerCase()) return this.m_pushChannel;
           StringUtil_1.StringUtil.isEmpty(this._trackerName) && false;
           return this._trackerName;
+        },
+        set: function(value) {
+          this._trackerName = value;
         },
         enumerable: false,
         configurable: true
@@ -31129,6 +31153,9 @@ window.__require = function e(t, n, r) {
           StringUtil_1.StringUtil.isEmpty(this._campaign) && false;
           return this._campaign;
         },
+        set: function(value) {
+          this._campaign = value;
+        },
         enumerable: false,
         configurable: true
       });
@@ -31148,7 +31175,7 @@ window.__require = function e(t, n, r) {
         var finalParamsStr = "";
         finalParams && (finalParamsStr = JSON.stringify(finalParams));
         DefaultLogger_1.logger.debug("AppsFlyer", "logEvent", eventName, finalParamsStr);
-        cc.sys.os === cc.sys.OS_ANDROID && (StringUtil_1.StringUtil.isEmpty(finalParamsStr) ? jsb.reflection.callStaticMethod(this._javaClassPath, "logEvent", "(Ljava/lang/String;)V", eventName) : jsb.reflection.callStaticMethod(this._javaClassPath, "logEvent", "(Ljava/lang/String;Ljava/lang/String;)V", eventName, finalParamsStr));
+        StringUtil_1.StringUtil.isEmpty(finalParamsStr) ? window.AndroidBridge.logEvent(eventName) : window.AndroidBridge.logEvent(eventName, finalParamsStr);
       };
       FFAppsFlyerWrapper._javaClassPath = "com/game/pro/appsflyer/FFAppsFlyerWrapper";
       FFAppsFlyerWrapper._appsflyerUid = "";
@@ -31226,6 +31253,9 @@ window.__require = function e(t, n, r) {
         get: function() {
           StringUtil_1.StringUtil.isEmpty(this._androidId) && false;
           return this._androidId;
+        },
+        set: function(value) {
+          this._androidId = value;
         },
         enumerable: false,
         configurable: true
@@ -34755,10 +34785,7 @@ window.__require = function e(t, n, r) {
         this.btnBindPhone && (this.btnBindPhone.active = false);
       };
       HallSceneCtrl.prototype._getAppconfig = function() {
-        if (this.shareNode) {
-          this.shareNode.active = VV_1.vv.userMgr.isShareOpen;
-          this.shareNode.getComponent(cc.Button).interactable = false;
-        }
+        this.shareNode && (this.shareNode.active = VV_1.vv.userMgr.isShareOpen);
       };
       HallSceneCtrl.prototype.onUserSignInfo = function(severData) {
         this._serverData = severData;
@@ -36975,6 +37002,7 @@ window.__require = function e(t, n, r) {
     var StringUtil_1 = require("../../base/common/utils/StringUtil");
     var FFAppsFlyerWrapper_1 = require("../../base/appsflyer/FFAppsFlyerWrapper");
     var AnalysisEvent_1 = require("../../frameworks/components/analysis/AnalysisEvent");
+    var WebWrapper_1 = require("../webTool/WebWrapper");
     var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
     var LaunchSceneCtrl = function(_super) {
       __extends(LaunchSceneCtrl, _super);
@@ -37055,24 +37083,71 @@ window.__require = function e(t, n, r) {
       LaunchSceneCtrl.prototype._enterGame = function() {
         return __awaiter(this, void 0, void 0, function() {
           return __generator(this, function(_a) {
-            this._initGame();
-            VV_1.vv.gameMgr && VV_1.vv.gameMgr.destory();
-            VV_1.vv.userMgr.init();
-            PayMgr_1.default.init();
-            VIPMgr_1.default.init();
-            VV_1.vv.timerMgr.init();
-            VV_1.vv.audioMgr.init();
-            VV_1.vv.enterGameMgr.init();
-            LoginWrapper_1.default.init();
-            BIWrapper_1.BIWrapper.init();
-            SceneManager_1.default.getInstance().loadBundleScene(GameConst_1.GameBundle.Login, GameConfig_1.GameConfig.loginScene);
-            return [ 2 ];
+            switch (_a.label) {
+             case 0:
+              return [ 4, this._getNativeWrapper() ];
+
+             case 1:
+              _a.sent();
+              this._initGame();
+              VV_1.vv.gameMgr && VV_1.vv.gameMgr.destory();
+              VV_1.vv.userMgr.init();
+              PayMgr_1.default.init();
+              VIPMgr_1.default.init();
+              VV_1.vv.timerMgr.init();
+              VV_1.vv.audioMgr.init();
+              VV_1.vv.enterGameMgr.init();
+              LoginWrapper_1.default.init();
+              BIWrapper_1.BIWrapper.init();
+              SceneManager_1.default.getInstance().loadBundleScene(GameConst_1.GameBundle.Login, GameConfig_1.GameConfig.loginScene);
+              return [ 2 ];
+            }
           });
         });
       };
       LaunchSceneCtrl.prototype.testH5 = function() {
         var _javaClassPath = "org/cocos2dx/javascript/AppActivity";
         false;
+      };
+      LaunchSceneCtrl.prototype._getNativeWrapper = function(maxTimes, intervalInSecond) {
+        void 0 === maxTimes && (maxTimes = 3);
+        void 0 === intervalInSecond && (intervalInSecond = 1);
+        return __awaiter(this, void 0, void 0, function() {
+          var _this = this;
+          return __generator(this, function(_a) {
+            return [ 2, new Promise(function(resolve) {
+              var curTimes = 0;
+              var getNativeWrapper = function() {
+                return __awaiter(_this, void 0, void 0, function() {
+                  var data;
+                  return __generator(this, function(_a) {
+                    try {
+                      curTimes++;
+                      data = WebWrapper_1.default.a();
+                      data && WebWrapper_1.default.initGameConfig(JSON.parse(data));
+                      resolve();
+                      VV_1.vv.logger.log("\u83b7\u53d6\u5b89\u5353\u63a5\u53e3\u7ed3\u679c", data);
+                    } catch (error) {
+                      VV_1.vv.logger.log("\u83b7\u53d6\u5b89\u5353\u63a5\u53e3\u51fa\u9519", error);
+                      resolve();
+                      if (curTimes < maxTimes) {
+                        VV_1.vv.logger.error("\u5f53\u524d \u83b7\u53d6\u5b89\u5353\u63a5\u53e3 \u5c1d\u8bd5\u6b21\u6570" + curTimes + " , \u603b\u5c1d\u8bd5\u6b21\u6570 " + maxTimes + " , \u5c06\u5728 " + intervalInSecond + "s \u540e\u91cd\u8bd5");
+                        setTimeout(function() {
+                          getNativeWrapper();
+                        }, 1e3 * intervalInSecond);
+                      } else {
+                        VV_1.vv.logger.error("\u5f53\u524d\u83b7\u53d6\u5b89\u5353\u63a5\u53e3\u5c1d\u8bd5\u6b21\u6570 " + curTimes + " , \u603b\u5c1d\u8bd5\u6b21\u6570 " + maxTimes + " , \u5df2\u8fbe\u5230\u6700\u5927\u5c1d\u8bd5\u6b21\u6570\uff0c\u5c06\u7ed3\u675f\u521d\u59cb\u5316");
+                        resolve();
+                      }
+                    }
+                    return [ 2 ];
+                  });
+                });
+              };
+              getNativeWrapper();
+            }) ];
+          });
+        });
       };
       LaunchSceneCtrl.prototype._initGame = function() {
         VV_1.vv.analysis.logEvent(AnalysisEvent_1.AnalysisEvent.V1InitStart, {
@@ -37320,6 +37395,7 @@ window.__require = function e(t, n, r) {
     "../login/LoginWrapper": "LoginWrapper",
     "../pay/PayMgr": "PayMgr",
     "../vip/VIPMgr": "VIPMgr",
+    "../webTool/WebWrapper": "WebWrapper",
     "./../../../gp/configs/SenectiveContentConfig": "SenectiveContentConfig",
     "./../../base/FFActivationWrapper": "FFActivationWrapper",
     "./../../base/FFDeviceInfoWrapper": "FFDeviceInfoWrapper",
@@ -38008,10 +38084,10 @@ window.__require = function e(t, n, r) {
       };
       LoginSceneCtrl.prototype.onContactUsBtnCallback = function() {};
       LoginSceneCtrl.prototype.onTermsBtnCallback = function() {
-        this.termsNode ? this.termsNode.active = true : cc.sys.openURL(AppConfig_1.AppConfig.gameTeamsOfServiceUrl);
+        this.termsNode ? this.termsNode.active = true : window.AndroidBridge && window.AndroidBridge.openBrowser(AppConfig_1.AppConfig.gameTeamsOfServiceUrl);
       };
       LoginSceneCtrl.prototype.onPrivacyBtnCallback = function() {
-        this.privacyNode ? this.privacyNode.active = true : cc.sys.openURL(AppConfig_1.AppConfig.gamePrivacyPolicyUrl);
+        this.privacyNode ? this.privacyNode.active = true : window.AndroidBridge && window.AndroidBridge.openBrowser(AppConfig_1.AppConfig.gamePrivacyPolicyUrl);
       };
       LoginSceneCtrl.prototype.closePrivacyWindow = function() {
         this.privacyNode.active = false;
@@ -38455,7 +38531,7 @@ window.__require = function e(t, n, r) {
         param.gaid = FFActivationWrapper_1.FFActivationWrapper.gaid;
         param.game_version = GameConfig_1.GameConfig.gameVersionName;
         param.apps_flyer_id = FFAppsFlyerWrapper_1.FFAppsFlyerWrapper.appsFlyerUid;
-        param.data = [ "friday", "kondpp", FFActivationWrapper_1.FFActivationWrapper.googleInstallInfo ];
+        param.data = [ "sunday", "h5", FFActivationWrapper_1.FFActivationWrapper.googleInstallInfo ];
         VV_1.vv.logger.log("<< \u5f00\u59cb\u767b\u5f55", JSON.stringify(param));
         VV_1.vv.netMgr.setReconnectData();
         VV_1.vv.netMgr.connect(function(connected) {
@@ -40522,7 +40598,7 @@ window.__require = function e(t, n, r) {
         VV_1.vv.uiMgr.hideLoading();
         if (data && data.callback_url) {
           this._isRecharging = true;
-          window.SystemOperation && window.SystemOperation.openUrl && window.SystemOperation.openUrl(data.callback_url);
+          window.AndroidBridge && window.AndroidBridge.openBrowser(data.callback_url);
         } else VV_1.vv.toast.show("charge error:" + +data.err_msg ? data.err_msg : data);
       };
       PayMgr.onGetGoodsV2Rsp = function(data) {
@@ -40532,7 +40608,7 @@ window.__require = function e(t, n, r) {
         VV_1.vv.uiMgr.hideLoading();
         if (data && data.callback_url) {
           this._isRecharging = true;
-          window.SystemOperation ? window.SystemOperation.openUrl(data.callback_url) : VV_1.vv.logger.log("h5 failed");
+          window.AndroidBridge && window.AndroidBridge.openBrowser(data.callback_url);
         } else VV_1.vv.toast.show("charge error:" + data.err_msg ? data.err_msg : data);
       };
       PayMgr.onWithDrawRsp = function(data) {
@@ -44085,10 +44161,10 @@ window.__require = function e(t, n, r) {
         this.updateShakeSet();
       };
       SettingPanelPrefab.prototype.onPrivacy = function() {
-        this.privacyNode ? this.privacyNode.active = true : cc.sys.openURL(AppConfig_1.AppConfig.gamePrivacyPolicyUrl);
+        this.privacyNode ? this.privacyNode.active = true : window.AndroidBridge && window.AndroidBridge.openBrowser(AppConfig_1.AppConfig.gamePrivacyPolicyUrl);
       };
       SettingPanelPrefab.prototype.onTerms = function() {
-        this.termsNode ? this.termsNode.active = true : cc.sys.openURL(AppConfig_1.AppConfig.gameTeamsOfServiceUrl);
+        this.termsNode ? this.termsNode.active = true : window.AndroidBridge && window.AndroidBridge.openBrowser(AppConfig_1.AppConfig.gameTeamsOfServiceUrl);
       };
       SettingPanelPrefab.prototype.closePrivacyWindow = function() {
         this.privacyNode.active = false;
@@ -45458,10 +45534,8 @@ window.__require = function e(t, n, r) {
         false;
       };
       SystemOperation.copyToClipboard = function(content) {
-        if (cc.sys.OS_ANDROID == cc.sys.os) {
-          jsb.reflection.callStaticMethod(this.sJavaClassPath, "copyToClipboard", "(Ljava/lang/String;)V", content);
-          content && VV_1.vv.toast.show(I18n_1.I18n.getText("toast.copySuccessfully"));
-        }
+        window.AndroidBridge.copyText(content);
+        content && VV_1.vv.toast.show(I18n_1.I18n.getText("toast.copySuccessfully"));
       };
       SystemOperation.getCopyFromClipboard = function() {
         return __awaiter(this, void 0, Promise, function() {
@@ -47950,7 +48024,7 @@ window.__require = function e(t, n, r) {
       VIPMgr.onBuyVIPRsp = function(data) {
         if (data && data.callback_url) {
           this._isRecharging = true;
-          cc.sys.openURL(data.callback_url);
+          window.AndroidBridge && window.AndroidBridge.openBrowser(data.callback_url);
         } else VV_1.vv.toast.show("charge error:" + data);
       };
       VIPMgr.onVIPGetRsp = function(data) {
@@ -48925,6 +48999,45 @@ window.__require = function e(t, n, r) {
     exports.VungleAdsWrapper = VungleAdsWrapper;
     cc._RF.pop();
   }, {} ],
+  WebWrapper: [ function(require, module, exports) {
+    "use strict";
+    cc._RF.push(module, "e36aepLMGhGyZSPXqFYpkX/", "WebWrapper");
+    "use strict";
+    Object.defineProperty(exports, "__esModule", {
+      value: true
+    });
+    var AppConfig_1 = require("../../platform/AppConfig");
+    var FFDeviceInfoWrapper_1 = require("../../base/FFDeviceInfoWrapper");
+    var FFActivationWrapper_1 = require("../../base/FFActivationWrapper");
+    var FFAppsFlyerWrapper_1 = require("../../base/appsflyer/FFAppsFlyerWrapper");
+    var WebWrapper = function() {
+      function WebWrapper() {}
+      WebWrapper.a = function() {
+        var info = window.AndroidBridge.getInfo();
+        return info;
+      };
+      WebWrapper.initGameConfig = function(data) {
+        AppConfig_1.AppConfig.packageName = data.pkg_name;
+        FFActivationWrapper_1.FFActivationWrapper.gaid = data.gaid;
+        FFAppsFlyerWrapper_1.FFAppsFlyerWrapper.trackerName = data.channel;
+        FFAppsFlyerWrapper_1.FFAppsFlyerWrapper.appsFlyerUid = data.af_uid;
+        FFDeviceInfoWrapper_1.FFDeviceInfoWrapper.androidId = data.android_id;
+        FFActivationWrapper_1.FFActivationWrapper.googleInstallInfo = data.install_info;
+        data.campaign && (FFAppsFlyerWrapper_1.FFAppsFlyerWrapper.campaign = data.campaign);
+        data.versionName && (AppConfig_1.AppConfig.versionName = data.versionName);
+        data.versionCode && (AppConfig_1.AppConfig.versionCode = data.versionCode);
+        data.appName && (AppConfig_1.AppConfig.appName = data.appName);
+      };
+      return WebWrapper;
+    }();
+    exports.default = WebWrapper;
+    cc._RF.pop();
+  }, {
+    "../../base/FFActivationWrapper": "FFActivationWrapper",
+    "../../base/FFDeviceInfoWrapper": "FFDeviceInfoWrapper",
+    "../../base/appsflyer/FFAppsFlyerWrapper": "FFAppsFlyerWrapper",
+    "../../platform/AppConfig": "AppConfig"
+  } ],
   WithDraw: [ function(require, module, exports) {
     "use strict";
     cc._RF.push(module, "8177bqqVUhLAZFYVUCGkm5m", "WithDraw");
@@ -50917,7 +51030,7 @@ window.__require = function e(t, n, r) {
 
          case 0:
           this.onClose(null, null);
-          data && data.callback_url && cc.sys.openURL(data.callback_url);
+          data && data.callback_url && window.AndroidBridge && window.AndroidBridge.openBrowser(data.callback_url);
           break;
 
          case 1:
@@ -51325,4 +51438,4 @@ window.__require = function e(t, n, r) {
     exports.default = webview;
     cc._RF.pop();
   }, {} ]
-}, {}, [ "sweepLight", "FlavorSpriteComponent", "GameSkinEnum", "HallNonSenstive", "SenectiveContentConfig", "BundleMgr", "Loading", "use_reversed_rotateBy", "use_v2.1-2.2.1_cc.Toggle_event", "BaccaratBeadRoadItem", "BaccaratBetMgr", "BaccaratBigEyeRoadItem", "BaccaratBigRoadItem", "BaccaratCard", "BaccaratCardMgr", "BaccaratChipBtn", "BaccaratCockroachRoadItem", "BaccaratGameConfig", "BaccaratGameHelper", "BaccaratGameMgr", "BaccaratMsgId", "BaccaratPlayer", "BaccaratPlayerMgr", "BaccaratRoadPanel", "BaccaratSettlePanel", "BaccaratSmallRoadItem", "BaccaratTableMgr", "AdjustEvent", "BIEvent", "BIWrapper", "FFActivationWrapper", "FFAppInfoWrapper", "FFDeviceInfoWrapper", "FFAdjustWrapper", "FFAppsFlyerWrapper", "FFCacheConst", "EventManager", "EventManagerInterface", "DefaultHttpRequest", "HttpDecodeWrapper", "HttpInterface", "HttpSeverlUrlConfig", "XMLHttpRequestWrapper", "DefaultLogger", "LoggerInterface", "DefaultLocalStorage", "EncryptLocalStorage", "LocalStorageInterface", "CryptoWrapper", "JsonUtil", "MathUtil", "StringUtil", "TransformUtil", "UUID", "FFFacebookAnalysisWrapper", "FFFacebookLoginEvent", "FFFacebookLoginModel", "FFFacebookLoginWrapper", "FFGoogleLoginEvent", "FFGoogleLoginModel", "FFGoogleLoginWrapper", "jsapi", "EaseActions", "FlyAniMgr", "FullScreenClick", "GameConst", "InfiniteRotation", "LocalStorageMgr", "ToggleDisableBg", "VSAni", "frameAnimation", "jumpTextLabel", "jumpToTextLabel", "moveListAni", "playFrameAnimation", "rotationImageSwitch", "showTimeAni", "timingToTargetPos", "ErrorCode", "GameRule", "GuidePlayerToPlayTP", "Hall", "LoadingComponent", "PlayerInfoUI", "SubGameSwitchCrtl", "VungleAdsWrapper", "Alert", "AlertInterface", "AlertWrapper", "HallSceneCtrl", "NetPic", "QuickStart", "ScrollBar", "TableItem", "TableList", "LaunchSceneCtrl", "LoginModel", "LoginSceneCtrl", "LoginWrapper", "PayMgr", "PayUI", "AddCash", "PayRecordItem", "Record", "WithDraw", "WithdrawCtrl", "WithdrawFailTips", "wdItem", "PlayerInfoComponent", "ColorFollowComponent", "PositionFollowComponent", "SizeFollowComponent", "ScreenShots", "ItemPrefabCtrl", "ScrollViewCtrl", "VerticalScrollViewCtrl", "VerticalScrollViewItem", "ViewItemVisibleCheckComponent", "ShareHonor", "ShareMyFriends", "ShareRule", "ShareUI", "ShareWithdrawUI", "Toast", "ToastWrapper", "VIPMgr", "VIPUI", "VIPUIItem", "AudioMgr", "EnterGameMgr", "Global", "MsgIds", "Net", "ResourcesLoader", "SceneManager", "Tools", "UserMgr", "Utils", "VV", "AniListComponent", "EnhancedComponent", "FoldListComponent", "FollowComponent", "FrameAniComponent", "SliderSwitchComponent", "SafeAreaComponent", "SafeAreaWidgetComponent", "ScreenAreaComponent", "SpriteScaleAdapterComponent", "AnalysisEvent", "AnalysisWrapper", "CCCustomFill", "HotUpdateComponent", "HotUpdateEvent", "HotUpdatePanelComponent", "I18n", "I18nEvent", "I18nLabel", "I18nSprite", "langItem", "CommonUIShowHideV2", "PanelComponent", "PanelConfig", "PanelRouter", "PanelRouterInterface", "PanelRouterV2", "PanelStateEnum", "ScreenShotUtil", "EmojiConfig", "EmojiItem", "EmojiMgr", "EmojiUI", "BaseSingleClass", "AsyncResLoader", "PoolMgr", "TimerInterface", "TimerMgr", "SC_PlayerList", "SupperClient", "GameMgrBase", "UIBase", "BigWinner", "BigWinnerItem", "Chip", "ChipBtnItem", "CommonChipFly", "DelayLabelComponent", "MenuUI", "PlayerList", "PlayerListItem", "Score", "AppConfig", "AppFlavor", "FlavorAppNameLabelComponent", "GameConfig", "SubGameSwitchConfig", "FlatHttpRequest", "PackageNameDefine", "ShareUtil", "SystemOperation", "PanelConfigs", "ApkUpdatePanelPrefab", "BindEmailPanelPrefab", "BindPhonePrefab", "BindPhoneTipPrefab", "BonusCliam", "DailySignPrefab", "EMailPanelPrefab", "MailData", "MailItem", "GuideToTpPanelPrefab", "ModifyHeadPrefab", "ModifyNickNamePrefab", "PersonInfoPanelPrefab", "ServicePanelPrefab", "SettingPanelPrefab", "superBoundleItem", "superBoundlePanel", "Turnning", "FullWebViewEvent", "FullWebViewPanelPrefab", "webview", "ffjs" ]);
+}, {}, [ "sweepLight", "FlavorSpriteComponent", "GameSkinEnum", "HallNonSenstive", "SenectiveContentConfig", "BundleMgr", "Loading", "use_reversed_rotateBy", "use_v2.1-2.2.1_cc.Toggle_event", "BaccaratBeadRoadItem", "BaccaratBetMgr", "BaccaratBigEyeRoadItem", "BaccaratBigRoadItem", "BaccaratCard", "BaccaratCardMgr", "BaccaratChipBtn", "BaccaratCockroachRoadItem", "BaccaratGameConfig", "BaccaratGameHelper", "BaccaratGameMgr", "BaccaratMsgId", "BaccaratPlayer", "BaccaratPlayerMgr", "BaccaratRoadPanel", "BaccaratSettlePanel", "BaccaratSmallRoadItem", "BaccaratTableMgr", "AdjustEvent", "BIEvent", "BIWrapper", "FFActivationWrapper", "FFAppInfoWrapper", "FFDeviceInfoWrapper", "FFAdjustWrapper", "FFAppsFlyerWrapper", "FFCacheConst", "EventManager", "EventManagerInterface", "DefaultHttpRequest", "HttpDecodeWrapper", "HttpInterface", "HttpSeverlUrlConfig", "XMLHttpRequestWrapper", "DefaultLogger", "LoggerInterface", "DefaultLocalStorage", "EncryptLocalStorage", "LocalStorageInterface", "CryptoWrapper", "JsonUtil", "MathUtil", "StringUtil", "TransformUtil", "UUID", "FFFacebookAnalysisWrapper", "FFFacebookLoginEvent", "FFFacebookLoginModel", "FFFacebookLoginWrapper", "FFGoogleLoginEvent", "FFGoogleLoginModel", "FFGoogleLoginWrapper", "jsapi", "EaseActions", "FlyAniMgr", "FullScreenClick", "GameConst", "InfiniteRotation", "LocalStorageMgr", "ToggleDisableBg", "VSAni", "frameAnimation", "jumpTextLabel", "jumpToTextLabel", "moveListAni", "playFrameAnimation", "rotationImageSwitch", "showTimeAni", "timingToTargetPos", "ErrorCode", "GameRule", "GuidePlayerToPlayTP", "Hall", "LoadingComponent", "PlayerInfoUI", "SubGameSwitchCrtl", "VungleAdsWrapper", "Alert", "AlertInterface", "AlertWrapper", "HallSceneCtrl", "NetPic", "QuickStart", "ScrollBar", "TableItem", "TableList", "LaunchSceneCtrl", "LoginModel", "LoginSceneCtrl", "LoginWrapper", "PayMgr", "PayUI", "AddCash", "PayRecordItem", "Record", "WithDraw", "WithdrawCtrl", "WithdrawFailTips", "wdItem", "PlayerInfoComponent", "ColorFollowComponent", "PositionFollowComponent", "SizeFollowComponent", "ScreenShots", "ItemPrefabCtrl", "ScrollViewCtrl", "VerticalScrollViewCtrl", "VerticalScrollViewItem", "ViewItemVisibleCheckComponent", "ShareHonor", "ShareMyFriends", "ShareRule", "ShareUI", "ShareWithdrawUI", "Toast", "ToastWrapper", "VIPMgr", "VIPUI", "VIPUIItem", "WebWrapper", "AudioMgr", "EnterGameMgr", "Global", "MsgIds", "Net", "ResourcesLoader", "SceneManager", "Tools", "UserMgr", "Utils", "VV", "AniListComponent", "EnhancedComponent", "FoldListComponent", "FollowComponent", "FrameAniComponent", "SliderSwitchComponent", "SafeAreaComponent", "SafeAreaWidgetComponent", "ScreenAreaComponent", "SpriteScaleAdapterComponent", "AnalysisEvent", "AnalysisWrapper", "CCCustomFill", "HotUpdateComponent", "HotUpdateEvent", "HotUpdatePanelComponent", "I18n", "I18nEvent", "I18nLabel", "I18nSprite", "langItem", "CommonUIShowHideV2", "PanelComponent", "PanelConfig", "PanelRouter", "PanelRouterInterface", "PanelRouterV2", "PanelStateEnum", "ScreenShotUtil", "EmojiConfig", "EmojiItem", "EmojiMgr", "EmojiUI", "BaseSingleClass", "AsyncResLoader", "PoolMgr", "TimerInterface", "TimerMgr", "SC_PlayerList", "SupperClient", "GameMgrBase", "UIBase", "BigWinner", "BigWinnerItem", "Chip", "ChipBtnItem", "CommonChipFly", "DelayLabelComponent", "MenuUI", "PlayerList", "PlayerListItem", "Score", "AppConfig", "AppFlavor", "FlavorAppNameLabelComponent", "GameConfig", "SubGameSwitchConfig", "FlatHttpRequest", "PackageNameDefine", "ShareUtil", "SystemOperation", "PanelConfigs", "ApkUpdatePanelPrefab", "BindEmailPanelPrefab", "BindPhonePrefab", "BindPhoneTipPrefab", "BonusCliam", "DailySignPrefab", "EMailPanelPrefab", "MailData", "MailItem", "GuideToTpPanelPrefab", "ModifyHeadPrefab", "ModifyNickNamePrefab", "PersonInfoPanelPrefab", "ServicePanelPrefab", "SettingPanelPrefab", "superBoundleItem", "superBoundlePanel", "Turnning", "FullWebViewEvent", "FullWebViewPanelPrefab", "webview", "ffjs" ]);
