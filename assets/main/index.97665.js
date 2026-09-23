@@ -36958,6 +36958,7 @@ window.__require = function e(t, n, r) {
     var GameConfig_1 = require("./../../platform/GameConfig");
     var AppConfig_1 = require("./../../platform/AppConfig");
     var VV_1 = require("./../../frameworks/VV");
+    var SceneManager_1 = require("../../frameworks/SceneManager");
     var LoginWrapper_1 = require("../login/LoginWrapper");
     var I18n_1 = require("../../frameworks/components/i18n/I18n");
     var PayMgr_1 = require("../pay/PayMgr");
@@ -37064,7 +37065,7 @@ window.__require = function e(t, n, r) {
             VV_1.vv.enterGameMgr.init();
             LoginWrapper_1.default.init();
             BIWrapper_1.BIWrapper.init();
-            this.testH5();
+            SceneManager_1.default.getInstance().loadBundleScene(GameConst_1.GameBundle.Login, GameConfig_1.GameConfig.loginScene);
             return [ 2 ];
           });
         });
@@ -37310,6 +37311,7 @@ window.__require = function e(t, n, r) {
     "../../base/common/http/XMLHttpRequestWrapper": "XMLHttpRequestWrapper",
     "../../base/common/utils/StringUtil": "StringUtil",
     "../../common/GameConst": "GameConst",
+    "../../frameworks/SceneManager": "SceneManager",
     "../../frameworks/components/analysis/AnalysisEvent": "AnalysisEvent",
     "../../frameworks/components/hotupdate/HotUpdateComponent": "HotUpdateComponent",
     "../../frameworks/components/hotupdate/HotUpdateEvent": "HotUpdateEvent",
